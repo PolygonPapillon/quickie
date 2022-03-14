@@ -1,0 +1,32 @@
+[
+  {
+    "firstName": "Jon",
+    "lastName": "Smith",
+    "clientID": 12345,
+    "online": false
+  },
+  {
+    "firstName": "Jane",
+    "lastName": "Smitherines",
+    "clientID": 23456,
+    "online": false
+  },
+  {
+    "firstName": "Jebadiah",
+    "lastName": "Smithee",
+    "clientID": 34567,
+    "online": false
+  },
+  {
+    "firstName": "Joan",
+    "lastName": "Smite",
+    "clientID": 45678,
+    "online": false
+  },
+  {
+    "firstName": "Jorge",
+    "lastName": "Smithe",
+    "clientID": 56789,
+    "online": false
+  }
+]

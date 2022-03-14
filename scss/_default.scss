@@ -1,0 +1,96 @@
+body {
+  font-family: $font;
+  font-weight: $fontReg;
+}
+
+div#wrapper {
+  background-color: $backgroundColor;
+}
+header {
+  background: url(../images/header_2x.jpg) no-repeat center;
+  min-height: 150px;
+  border-bottom: 5px solid $secondaryColor;
+  h1 {
+    font-size: 3rem;
+    text-align: center;
+    padding-top: 55px;
+    color: $fontColor;
+  }
+  h2 {
+    font-size: 2rem;
+    text-align: center;
+    color: $fontColor;
+    padding-left: 108px;
+    padding-bottom: 20px;
+  }
+}
+nav {
+  li {
+    padding: 8px $gutter;
+    color: $fontColor;
+  }
+  a {
+    color: $primaryColor;
+    text-decoration: none;
+    font-weight: $fontLight;
+  }
+}
+main {
+  color: $fontColor;
+  a {
+    text-decoration: none;
+    color: $primaryColor;
+  }
+  h1 {
+    font-size: 2rem;
+    padding: $gutter;
+  }
+
+  border-bottom: none;
+
+  section#display {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    div {
+      display: flex column;
+      justify-content: center;
+      margin: $gutter;
+    }
+    h2 {
+      font-size: 1.3rem;
+      text-align: center;
+    }
+    h3 {
+      font-size: 1.2rem;
+      text-align: center;
+    }
+    p {
+      text-align: center;
+    }
+    figure {
+     display: flex;
+    }
+    img {
+      margin: auto;
+      max-width: 100%;
+    }
+  }
+}
+
+footer {
+  hr {
+    display: none;
+  }
+  width: 100%;
+  border-top: 5px solid $secondaryColor;
+  p {
+    color: $fontColor;
+    font-size: 0.9rem;
+    text-align: center;
+    padding: 10px 0;
+  }
+}
